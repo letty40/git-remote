@@ -1,0 +1,36 @@
+
+nav {
+    background:grey; font-size: 100%;
+}
+
+ul {display: flex; justify-content: flex-start; }
+
+li {
+    list-style-type: none; margin-right: 30px; padding: 30px;      
+}
+.colorfellows {background: #d3d3d3; border-bottom: 1px solid grey}
+.carousel {width: 100%;background: #d3d3d3; height: 150px; margin-top: -16px;}
+h2 {width: 100%; margin:auto}
+.fontsizeh2 {font-size: small}
+section {display: flex; text-align: center; padding-bottom: 30px}
+article {width: 33%; height: 300px; background: #d3d3d3; margin-right: 25px}
+form {border-top: 1px solid black; margin-top: 30px; 
+    display: flex; flex-direction: column; width: 100%;}
+input {width: 75%; margin: auto}
+textarea {width: 75%; margin: auto}
+
+
+@media screen and (min-width: 961px) {
+   
+}
+
+   
+
+@media screen  and (max-width: 961px) { 
+    .contactus {text-align: center}
+    article {display: none}
+       
+ .carousel {display:none}
+}
+
+
